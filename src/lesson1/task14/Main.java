@@ -1,13 +1,15 @@
 package lesson1.task14;
 
 public class Main{
-    public static void main(String[] args){
-        int a = 1;
-        int b = 2;
-        // получается только так, при попытке отдельным методом менять ругается на все подряд :с
-        System.out.println("a = " + b); // вернёт 2
-        System.out.println("b = " + a); // вернёт 1
-    }
+        public static void main(String[] args) {
+            Integer a = 1;
+            Integer b = 2;
+            System.out.println(a);
+            System.out.println(b);
+        }
 
+    private static void invoke(){
+            // нет идей, есть подозрение что через массивы
+    }
 
 }
